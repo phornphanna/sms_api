@@ -1,0 +1,74 @@
+CREATE TABLE roles (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50) UNIQUE NOT NULL
+);
+
+-- 2. USERS (core authentication only)
+CREATE TABLE users (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    username VARCHAR(50) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    role ENUM('student', 'teacher', 'admin', 'super_admin') NOT NULL,
+    status ENUM('pending', 'approved', 'rejected') DEFAULT 'pending',
+    last_login DATETIME,
+    approved_by BIGINT,
+    approved_at DATETIME,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+    updated_at DATETIME ON UPDATE CURRENT_TIMESTAMP,
+    CONSTRAINT fk_users_approved_by FOREIGN KEY (approved_by) REFERENCES users(id)
+);
+
+-- 3. USER PROFILES (common profile data)
+CREATE TABLE user_profiles (
+    user_id BIGINT PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    gender ENUM('male', 'female', 'other', 'prefer_not_to_say'),
+    birthdate DATE,
+    phone VARCHAR(20),
+    address TEXT,
+    profile_image VARCHAR(255),
+    telegram_id VARCHAR(100),
+    CONSTRAINT fk_user_profiles_user FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+
+-- 5. STUDENT PROFILES
+CREATE TABLE student_profiles (
+    user_id BIGINT PRIMARY KEY,
+    student_id_number VARCHAR(20) UNIQUE,
+    academic_year_id INT,
+    parent_contact VARCHAR(20),
+    emergency_contact VARCHAR(20),
+    CONSTRAINT fk_student_profiles_user FOREIGN KEY (user_id) REFERENCES users(id),
+    CONSTRAINT fk_student_profiles_academic_year FOREIGN KEY (academic_year_id) REFERENCES academic_years(id)
+);
+
+-- 6. TEACHER POSITIONS (simplified without rank)
+CREATE TABLE teacher_positions (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL UNIQUE
+);
+
+-- 7. TEACHER PROFILES
+CREATE TABLE teacher_profiles (
+    user_id BIGINT PRIMARY KEY,
+    position_id INT,
+    experience_years INT DEFAULT 0,
+    specialization VARCHAR(100),
+    bio TEXT,
+    office_location VARCHAR(50),
+    office_hours TEXT,
+    CONSTRAINT fk_teacher_profiles_user FOREIGN KEY (user_id) REFERENCES users(id),
+    CONSTRAINT fk_teacher_profiles_position FOREIGN KEY (position_id) REFERENCES teacher_positions(id)
+);
+
+-- 8. ADMIN PROFILES
+CREATE TABLE admin_profiles (
+    user_id BIGINT PRIMARY KEY,
+    department VARCHAR(50),
+    admin_level ENUM('regular', 'super') NOT NULL DEFAULT 'regular',
+    responsibilities TEXT,
+    CONSTRAINT fk_admin_profiles_user FOREIGN KEY (user_id) REFERENCES users(id)
+);

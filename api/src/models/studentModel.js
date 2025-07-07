@@ -182,6 +182,58 @@ class StudentModel {
             connection.release();
         }
     }
+
+    async update(id , data ){
+      const connection = await db.getConnection();
+      try {
+        await connection.beginTransaction();
+        
+           await connection.execute(
+            'UPDATE users SET email = ?, username = ?, password = ?, role = ?, status = ?, last_login = ?, approved_by = ?, approved_at = ?, created_at = ?, updated_at = ? WHERE id = ?',
+            [data.email, data.username, data.password, data.role, data.status, data.last_login, data.approved_by, data.approved_at, data.created_at, data.updated_at, id];
+            await connection.execute(
+              'UPDATE user_profiles SET first_name = ?, last_name = ?, gender = ?, birthdate = ?, phone = ?, address = ?, profile_image = ?, telegram_id = ? WHERE user_id = ?',
+              [data.first_name, data.last_name, data.gender, data.birthdate, data.phone, data.address, data.profile_image, data.telegram_id, id]
+            );
+            await connection.execute(
+              'UPDATE student_profiles SET student_id_number = ?, academic_year_id = ?, parent_contact = ?, emergency_contact = ? WHERE user_id = ?',
+              [data.student_id_number, data.academic_year_id, data.parent_contact, data.emergency_contact, id]
+            );                                                                                                                                                                                                                                                                                                                                                                                
+        );
+        await connection.commit();
+        if(result.affectedRows > 0){
+          return {
+            result: true,
+            message: "Student updated successfully"
+          };
+        }
+      } catch (error) {
+        await connection.rollback();
+        throw error;
+      } finally {
+        connection.release();
+      }
+    }
+
+    async delete(id){
+      const connection = await db.getConnection();
+      try {
+        await connection.beginTransaction();
+        await connection.execute('DELETE FROM student_profiles WHERE user_id = ?', [id]);
+        await connection.execute('DELETE FROM user_profiles WHERE user_id = ?', [id]);
+        await connection.execute('DELETE FROM users WHERE id = ?', [id]);
+        await connection.commit();
+        return {
+          result: true,
+          message: "Student deleted successfully"
+        };
+      } catch (error) {
+        await connection.rollback();
+        throw error;
+      } finally {
+        connection.release();
+      }
+    }
 }
 
 module.exports = new StudentModel();

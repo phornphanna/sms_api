@@ -1,0 +1,34 @@
+[2025-07-10 10:13:25] Old file delete failed: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\public\uploads\no-img.jpg'
+[2025-07-10 10:14:08] Old file delete failed: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\public\uploads\no-img.jpg'
+[2025-07-10 10:14:08] Error: Duplicate entry 'student14@gmail.com' for key 'users.email'
+    at StudentModel.update (D:\sms-project\api\src\models\studentModel.js:289:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:72:28)
+[2025-07-10 10:14:09] Old file delete failed: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\public\uploads\no-img.jpg'
+[2025-07-10 10:14:09] Error: Duplicate entry 'student14@gmail.com' for key 'users.email'
+    at StudentModel.update (D:\sms-project\api\src\models\studentModel.js:289:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:72:28)
+[2025-07-10 10:14:54] Old file delete failed: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\public\uploads\no-img.jpg'
+[2025-07-10 10:15:10] Old file delete failed: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\public\uploads\no-img.jpg'
+[2025-07-10 10:15:19] Old file delete failed: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\public\uploads\no-img.jpg'
+[2025-07-10 10:17:29] Failed to delete old image: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\public\uploads\jpg\no-img.jpg'
+[2025-07-10 10:17:42] Failed to delete old image: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\public\uploads\jpg\no-img.jpg'
+[2025-07-10 10:17:52] Failed to delete old image: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\public\uploads\jpg\no-img.jpg'
+[2025-07-10 10:18:46] Failed to delete old image: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\public\uploads\jpg\no-img.jpg'
+[2025-07-10 10:18:51] Failed to delete old image: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\public\uploads\jpg\no-img.jpg'
+[2025-07-10 10:19:57] Failed to delete old image: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\public\uploads\jpg\no-img.jpg'
+[2025-07-10 10:23:37] Failed to delete old image: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\public\uploads.jpg\no-img.jpg'
+[2025-07-10 10:23:49] Failed to delete old image: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\public\uploads.jpg\no-img.jpg'
+[2025-07-10 10:25:25] ReferenceError: ext is not defined
+    at updateStudent (D:\sms-project\api\src\controllers\studentController.js:58:88)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-10 10:26:46] Failed to delete old image: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\public\uploads\jpg\no-img.jpg'
+[2025-07-10 10:26:56] Failed to delete old image: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\public\uploads\jpg\no-img.jpg'
+[2025-07-10 10:26:59] Failed to delete old image: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\public\uploads\jpg\no-img.jpg'
+[2025-07-10 10:28:55] ReferenceError: file is not defined
+    at updateStudent (D:\sms-project\api\src\controllers\studentController.js:59:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-10 10:43:35] Old image deletion failed: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\uploads\jpg\no-img.jpg'
+[2025-07-10 10:43:47] Old image deletion failed: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\uploads\jpg\no-img.jpg'
+[2025-07-10 10:43:52] Old image deletion failed: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\uploads\jpg\no-img.jpg'

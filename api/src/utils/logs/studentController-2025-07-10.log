@@ -1,0 +1,123 @@
+[2025-07-10 09:13:56] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at StudentModel.update (D:\sms-project\api\src\models\studentModel.js:300:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:67:28)
+[2025-07-10 09:16:56] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at StudentModel.update (D:\sms-project\api\src\models\studentModel.js:297:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:67:28)
+[2025-07-10 09:18:46] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:700:11)
+    at ServerResponse.header (D:\sms-project\api\node_modules\express\lib\response.js:684:10)
+    at ServerResponse.send (D:\sms-project\api\node_modules\express\lib\response.js:161:12)
+    at ServerResponse.json (D:\sms-project\api\node_modules\express\lib\response.js:250:15)
+    at Object.responseSuccess (D:\sms-project\api\src\helper\response\responseStudent.js:6:28)
+    at createStudent (D:\sms-project\api\src\controllers\studentController.js:27:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-10 09:19:08] Error: Duplicate entry 'student16@gmail.com' for key 'users.email'
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:78:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createStudent (D:\sms-project\api\src\controllers\studentController.js:25:28)
+[2025-07-10 09:19:53] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at StudentModel.update (D:\sms-project\api\src\models\studentModel.js:297:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:67:28)
+[2025-07-10 09:20:12] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at StudentModel.update (D:\sms-project\api\src\models\studentModel.js:297:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:67:28)
+[2025-07-10 09:22:58] Error: Data truncated for column 'status' at row 1
+    at StudentModel.update (D:\sms-project\api\src\models\studentModel.js:297:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:67:28)
+[2025-07-10 09:23:06] TypeError: result.send is not a function
+    at updateStudent (D:\sms-project\api\src\controllers\studentController.js:68:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-10 09:31:20] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:700:11)
+    at ServerResponse.header (D:\sms-project\api\node_modules\express\lib\response.js:684:10)
+    at ServerResponse.send (D:\sms-project\api\node_modules\express\lib\response.js:161:12)
+    at ServerResponse.json (D:\sms-project\api\node_modules\express\lib\response.js:250:15)
+    at Object.responseSuccess (D:\sms-project\api\src\helper\response\responseStudent.js:6:28)
+    at getStudentById (D:\sms-project\api\src\controllers\studentController.js:96:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-10 09:33:37] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:700:11)
+    at ServerResponse.header (D:\sms-project\api\node_modules\express\lib\response.js:684:10)
+    at ServerResponse.send (D:\sms-project\api\node_modules\express\lib\response.js:161:12)
+    at ServerResponse.json (D:\sms-project\api\node_modules\express\lib\response.js:250:15)
+    at Object.responseSuccess (D:\sms-project\api\src\helper\response\responseStudent.js:6:28)
+    at getStudentById (D:\sms-project\api\src\controllers\studentController.js:96:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-10 10:30:13] TypeError: fs.unlinkSync is not a function
+    at updateStudent (D:\sms-project\api\src\controllers\studentController.js:63:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-10 10:36:14] ReferenceError: path is not defined
+    at updateStudent (D:\sms-project\api\src\controllers\studentController.js:63:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-10 10:36:26] Error: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\uploads\no-img.jpg'
+    at async Object.unlink (node:internal/fs/promises:1065:10)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:65:17)
+[2025-07-10 10:37:49] ReferenceError: path is not defined
+    at updateStudent (D:\sms-project\api\src\controllers\studentController.js:63:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-10 10:37:58] Error: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\uploads\no-img.jpg'
+    at async Object.unlink (node:internal/fs/promises:1065:10)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:64:17)
+[2025-07-10 10:38:11] Error: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\public\uploads\no-img.jpg'
+    at async Object.unlink (node:internal/fs/promises:1065:10)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:64:17)
+[2025-07-10 10:38:35] ReferenceError: path is not defined
+    at updateStudent (D:\sms-project\api\src\controllers\studentController.js:63:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-10 10:38:42] Error: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\uploads\no-img.jpg'
+    at async Object.unlink (node:internal/fs/promises:1065:10)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:64:17)
+[2025-07-10 10:58:11] TypeError: fs.unlinkSync is not a function
+    at updateStudent (D:\sms-project\api\src\controllers\studentController.js:64:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-10 11:10:00] Error: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\uploads\jpg\no-img.jpg'
+    at async Object.unlink (node:internal/fs/promises:1065:10)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:66:21)
+[2025-07-10 11:10:24] Error: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\uploadsno-img.jpg'
+    at async Object.unlink (node:internal/fs/promises:1065:10)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:66:21)
+[2025-07-10 11:10:34] Error: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\uploadsno-img.jpg'
+    at async Object.unlink (node:internal/fs/promises:1065:10)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:66:21)
+[2025-07-10 11:12:12] Error: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\uploads\no-img.jpg'
+    at async Object.unlink (node:internal/fs/promises:1065:10)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:66:21)
+[2025-07-10 11:12:35] Error: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\uploads\no-img.jpg'
+    at async Object.unlink (node:internal/fs/promises:1065:10)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:66:21)
+[2025-07-10 11:20:19] Error: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\uploads\no-img.jpg'
+    at async Object.unlink (node:internal/fs/promises:1065:10)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:66:25)
+[2025-07-10 11:20:57] Error: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\uploads\1752121239139.jpg'
+    at async Object.unlink (node:internal/fs/promises:1065:10)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:66:25)
+[2025-07-10 11:21:52] Error: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\uploads\1752121239139.jpg'
+    at async Object.unlink (node:internal/fs/promises:1065:10)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:66:25)
+[2025-07-10 11:22:19] Error: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\uploads\1752121239139.jpg'
+    at async Object.unlink (node:internal/fs/promises:1065:10)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:66:25)
+[2025-07-10 11:23:33] Error: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\uploads\1752121239139.jpg'
+    at async Object.unlink (node:internal/fs/promises:1065:10)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:67:25)
+[2025-07-10 11:24:54] Error: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\uploads\1752121486847.jpg'
+    at async Object.unlink (node:internal/fs/promises:1065:10)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:67:25)
+[2025-07-10 11:26:00] Error: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\uploads\1752121486847.jpg'
+    at async Object.unlink (node:internal/fs/promises:1065:10)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:67:25)
+[2025-07-10 11:26:58] Error: ENOENT: no such file or directory, unlink 'D:\sms-project\uploads\1752121486847.jpg'
+    at async Object.unlink (node:internal/fs/promises:1065:10)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:67:25)
+[2025-07-10 11:27:22] Error: ENOENT: no such file or directory, unlink 'D:\sms-project\api\src\uploads\1752121486847.jpg'
+    at async Object.unlink (node:internal/fs/promises:1065:10)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:67:25)
+[2025-07-10 11:30:09] Error: ENOENT: no such file or directory, unlink 'D:\sms-project\api\uploads\jpg\1752121486847.jpg'
+    at async Object.unlink (node:internal/fs/promises:1065:10)
+    at async updateStudent (D:\sms-project\api\src\controllers\studentController.js:68:25)

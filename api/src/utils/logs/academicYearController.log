@@ -1,0 +1,48 @@
+[2025-07-09 14:10:39] TypeError: Cannot read properties of undefined (reading 'name0')
+    at AcademicYearModel.create (D:\sms-project\api\src\models\academicYearModel.js:10:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createAcademicYear (D:\sms-project\api\src\controllers\academicYearController.js:15:28)
+[2025-07-09 14:10:49] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at AcademicYearModel.create (D:\sms-project\api\src\models\academicYearModel.js:8:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createAcademicYear (D:\sms-project\api\src\controllers\academicYearController.js:15:28)
+[2025-07-09 14:11:29] Error: Column count doesn't match value count at row 1
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AcademicYearModel.create (D:\sms-project\api\src\models\academicYearModel.js:8:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createAcademicYear (D:\sms-project\api\src\controllers\academicYearController.js:15:28)
+[2025-07-09 14:12:50] Error: Column count doesn't match value count at row 1
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AcademicYearModel.create (D:\sms-project\api\src\models\academicYearModel.js:8:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createAcademicYear (D:\sms-project\api\src\controllers\academicYearController.js:15:28)
+[2025-07-09 14:13:26] Error: Duplicate entry 'Year1' for key 'academic_years.name'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AcademicYearModel.create (D:\sms-project\api\src\models\academicYearModel.js:8:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createAcademicYear (D:\sms-project\api\src\controllers\academicYearController.js:15:28)
+[2025-07-09 14:42:43] Error: Duplicate entry 'Year1' for key 'academic_years.name'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AcademicYearModel.create (D:\sms-project\api\src\models\academicYearModel.js:8:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createAcademicYear (D:\sms-project\api\src\controllers\academicYearController.js:15:28)
+[2025-07-09 14:47:46] TypeError: Cannot read properties of undefined (reading 'name')
+    at AcademicYearModel.update (D:\sms-project\api\src\models\academicYearModel.js:40:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateAcademicYear (D:\sms-project\api\src\controllers\academicYearController.js:41:28)
+[2025-07-09 14:48:16] Error: Duplicate entry 'Other+' for key 'academic_years.name'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AcademicYearModel.update (D:\sms-project\api\src\models\academicYearModel.js:38:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateAcademicYear (D:\sms-project\api\src\controllers\academicYearController.js:41:28)
+[2025-07-09 14:51:31] Error: Duplicate entry 'Other+' for key 'academic_years.name'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AcademicYearModel.update (D:\sms-project\api\src\models\academicYearModel.js:38:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateAcademicYear (D:\sms-project\api\src\controllers\academicYearController.js:41:28)

@@ -116,33 +116,28 @@ CREATE TABLE courses (
 );
 
 -- 11. CLASSES
-CREATE TABLE classes (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    course_id INT NOT NULL,
-    teacher_id BIGINT NOT NULL,
-    room VARCHAR(50),
-    max_students INT,
-    current_students INT DEFAULT 0,
-    status ENUM('coming_soon', 'open', 'full', 'closed', 'completed', 'cancelled') DEFAULT 'coming_soon',
-    start_date DATE,
-    end_date DATE,
-    created_by BIGINT,
-    created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-    CONSTRAINT fk_classes_course FOREIGN KEY (course_id) REFERENCES courses(id),
-    CONSTRAINT fk_classes_teacher FOREIGN KEY (teacher_id) REFERENCES users(id),
-    CONSTRAINT fk_classes_creator FOREIGN KEY (created_by) REFERENCES users(id)
-);
+CREATE TABLE IF NOT EXISTS `classes` (
+    `id` INT(11) NOT NULL AUTO_INCREMENT,
+    `course_id` INT(11) NOT NULL,
+    `teacher_id` BIGINT(20) NOT NULL,
+    `max_students` INT(11) DEFAULT NULL,
+    `current_students` INT(11) DEFAULT 0,
+    `status` ENUM('coming_soon', 'open', 'full', 'closed', 'completed') DEFAULT 'coming_soon',
+    `start_time` TIME DEFAULT NULL,
+    `end_time` TIME DEFAULT NULL,
+    `start_date` DATE DEFAULT NULL,
+    `end_date` DATE DEFAULT NULL,
+    `day_of_week` ENUM('monday','tuesday','wednesday','thursday','friday','saturday','sunday') NOT NULL,
+    `image_class` VARCHAR(255) DEFAULT NULL,
+    `created_by` BIGINT(20) DEFAULT NULL,
+    `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP,
+    `time_slot` ENUM('am', 'pm') NOT NULL,
+    PRIMARY KEY (`id`),
+    KEY `course_id` (`course_id`),
+    KEY `created_by` (`created_by`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
--- 12. CLASS SCHEDULES
-CREATE TABLE class_schedules (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    class_id INT NOT NULL,
-    day_of_week ENUM('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday') NOT NULL,
-    start_time TIME NOT NULL,
-    end_time TIME NOT NULL,
-    CONSTRAINT fk_class_schedules_class FOREIGN KEY (class_id) REFERENCES classes(id),
-    UNIQUE (class_id, day_of_week, start_time, end_time)
-);
+
 
 -- 13. PAYMENT PLANS
 CREATE TABLE payment_plans (

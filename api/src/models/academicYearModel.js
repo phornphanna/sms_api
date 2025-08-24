@@ -6,8 +6,8 @@ class AcademicYearModel {
         try {
             await connection.beginTransaction();
             const [result] = await connection.execute(
-                'INSERT INTO academic_years (name) VALUES (?)',
-                [data.name]
+                'INSERT INTO academic_years ( id , name) VALUES (?, ?)',
+                [data.id , data.name]
             );
             await connection.commit();
             return result;
@@ -22,7 +22,7 @@ class AcademicYearModel {
     async getAll() {
         const connection = await db.getConnection();
         try {
-            const [result] = await connection.execute('SELECT * FROM academic_years');
+            const [result] = await connection.execute('SELECT * FROM academic_years ORDER BY id ASC');
             return result;
         } catch (error) {
             throw error;
@@ -56,6 +56,20 @@ async delete(id) {
         await connection.execute('DELETE FROM academic_years WHERE id = ?', [id]);
         await connection.commit();
         return true;
+    } catch (error) {
+        await connection.rollback();
+        throw error;
+    } finally {
+        connection.release();
+    }
+}
+
+async getById(id){
+    const connection = await db.getConnection();
+    try {
+        const [result] = await connection.execute('SELECT * FROM academic_years WHERE id = ?', [id]);
+        connection.commit();
+        return result;
     } catch (error) {
         await connection.rollback();
         throw error;

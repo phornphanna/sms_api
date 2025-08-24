@@ -1,0 +1,148 @@
+[2025-07-30 07:14:56] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:353:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-30 07:17:11] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:353:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-30 07:17:38] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:351:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-30 07:19:32] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:351:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:51:28)
+[2025-07-30 07:20:19] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:347:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:51:28)
+[2025-07-30 07:20:37] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:348:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:51:28)
+[2025-07-30 07:23:17] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:348:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:51:28)
+[2025-07-30 07:23:39] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:348:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:51:28)
+[2025-07-30 07:23:46] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:348:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:51:28)
+[2025-07-30 07:24:47] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:346:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:51:28)
+[2025-07-30 07:25:29] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:346:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:51:28)
+[2025-07-30 07:25:53] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:346:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:51:28)
+[2025-07-30 07:26:02] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:346:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:51:28)
+[2025-07-30 07:26:52] Error: Unknown column 'office_hour' in 'field list'
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:260:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:51:28)
+[2025-07-30 07:59:57] Error: Duplicate entry 'student6@gmail.com' for key 'email'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at TeacherModel.create (D:\sms-project\api\src\models\teacherModel.js:11:52)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\teacherController.js:16:28)
+[2025-07-30 08:00:03] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at TeacherModel.create (D:\sms-project\api\src\models\teacherModel.js:42:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\teacherController.js:16:28)
+[2025-07-30 08:01:27] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at TeacherModel.create (D:\sms-project\api\src\models\teacherModel.js:42:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\teacherController.js:16:28)
+[2025-07-30 08:02:59] Error: Duplicate entry 'student7@gmail.com' for key 'email'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at TeacherModel.create (D:\sms-project\api\src\models\teacherModel.js:11:52)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\teacherController.js:16:28)
+[2025-07-30 08:07:33] ReferenceError: studentModel is not defined
+    at deleteProfileImage (D:\sms-project\api\src\controllers\teacherController.js:122:31)
+    at Layer.handleRequest (D:\sms-project\api\node_modules\router\lib\layer.js:152:17)
+    at next (D:\sms-project\api\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\sms-project\api\node_modules\router\lib\route.js:117:3)
+    at handle (D:\sms-project\api\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\sms-project\api\node_modules\router\lib\layer.js:152:17)
+    at D:\sms-project\api\node_modules\router\index.js:295:15
+    at param (D:\sms-project\api\node_modules\router\index.js:600:14)
+    at param (D:\sms-project\api\node_modules\router\index.js:610:14)
+    at processParams (D:\sms-project\api\node_modules\router\index.js:664:3)
+[2025-07-30 08:08:35] ReferenceError: studentModel is not defined
+    at deleteProfileImage (D:\sms-project\api\src\controllers\teacherController.js:122:31)
+    at Layer.handleRequest (D:\sms-project\api\node_modules\router\lib\layer.js:152:17)
+    at next (D:\sms-project\api\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\sms-project\api\node_modules\router\lib\route.js:117:3)
+    at handle (D:\sms-project\api\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\sms-project\api\node_modules\router\lib\layer.js:152:17)
+    at D:\sms-project\api\node_modules\router\index.js:295:15
+    at param (D:\sms-project\api\node_modules\router\index.js:600:14)
+    at param (D:\sms-project\api\node_modules\router\index.js:610:14)
+    at processParams (D:\sms-project\api\node_modules\router\index.js:664:3)
+[2025-07-30 08:09:24] ReferenceError: path is not defined
+    at deleteProfileImage (D:\sms-project\api\src\controllers\teacherController.js:129:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-30 08:10:22] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at Object.join (node:path:485:7)
+    at deleteProfileImage (D:\sms-project\api\src\controllers\teacherController.js:131:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-30 08:12:34] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at TeacherModel.updateImageProfile (D:\sms-project\api\src\models\teacherModel.js:312:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateImageProfile (D:\sms-project\api\src\controllers\teacherController.js:111:28)
+[2025-07-30 08:12:50] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at TeacherModel.updateImageProfile (D:\sms-project\api\src\models\teacherModel.js:312:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateImageProfile (D:\sms-project\api\src\controllers\teacherController.js:111:28)
+[2025-07-30 08:12:52] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at TeacherModel.updateImageProfile (D:\sms-project\api\src\models\teacherModel.js:312:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async updateImageProfile (D:\sms-project\api\src\controllers\teacherController.js:111:28)
+[2025-07-30 08:19:35] TypeError: Cannot read properties of undefined (reading 'profile_image')
+    at delete (D:\sms-project\api\src\controllers\teacherController.js:76:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)

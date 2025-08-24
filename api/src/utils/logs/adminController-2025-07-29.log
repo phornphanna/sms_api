@@ -1,0 +1,405 @@
+[2025-07-29 09:50:59] Error: Duplicate entry 'student20@gmail.com' for key 'email'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:12:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:17:28)
+[2025-07-29 09:51:29] Error: Table 'sms.admin_profile' doesn't exist
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:40:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:17:28)
+[2025-07-29 09:55:39] Error: Column count doesn't match value count at row 1
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:40:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:17:28)
+[2025-07-29 09:59:01] Error: Column count doesn't match value count at row 1
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:39:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:17:28)
+[2025-07-29 09:59:29] Error: Column count doesn't match value count at row 1
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:39:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:17:28)
+[2025-07-29 10:01:31] Error: Column count doesn't match value count at row 1
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:39:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:17:28)
+[2025-07-29 10:01:57] Error: Column count doesn't match value count at row 1
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:39:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:17:28)
+[2025-07-29 10:02:07] Error: Column count doesn't match value count at row 1
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:39:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:17:28)
+[2025-07-29 10:03:43] ReferenceError: logError is not defined
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:23:9)
+    at create (D:\sms-project\api\src\controllers\adminController.js:17:45)
+    at Layer.handleRequest (D:\sms-project\api\node_modules\router\lib\layer.js:152:17)
+    at next (D:\sms-project\api\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\sms-project\api\node_modules\router\lib\route.js:117:3)
+    at handle (D:\sms-project\api\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\sms-project\api\node_modules\router\lib\layer.js:152:17)
+    at D:\sms-project\api\node_modules\router\index.js:295:15
+    at processParams (D:\sms-project\api\node_modules\router\index.js:582:12)
+    at next (D:\sms-project\api\node_modules\router\index.js:291:5)
+[2025-07-29 10:04:14] Error: Column count doesn't match value count at row 1
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:39:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:17:28)
+[2025-07-29 10:04:55] Error: Column count doesn't match value count at row 1
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:39:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:17:28)
+[2025-07-29 10:06:13] ReferenceError: result is not defined
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:48:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:17:28)
+[2025-07-29 10:09:00] Error: Duplicate entry 'student30@gmail.com' for key 'email'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:11:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:17:28)
+[2025-07-29 10:09:51] Error: Duplicate entry 'student30@gmail.com' for key 'email'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:11:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:17:28)
+[2025-07-29 10:10:57] Error: Duplicate entry 'student30@gmail.com' for key 'email'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:11:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:17:28)
+[2025-07-29 10:16:33] Error: Duplicate entry 'student31@gmail.com' for key 'email'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:11:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:17:28)
+[2025-07-29 10:16:54] Error: Duplicate entry 'student4@gmail.com' for key 'email'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:11:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:17:28)
+[2025-07-29 10:23:01] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+        JOIN user_profiles up ON u.id = up.user_id
+        JOIN ...' at line 13
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.getById (D:\sms-project\api\src\models\adminModel.js:162:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:43:29)
+[2025-07-29 10:36:38] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+        JOIN user_profiles up ON u.id = up.user_id
+        JOIN ...' at line 13
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.getById (D:\sms-project\api\src\models\adminModel.js:162:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:43:29)
+[2025-07-29 10:36:43] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+        JOIN user_profiles up ON u.id = up.user_id
+        JOIN ...' at line 13
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.getById (D:\sms-project\api\src\models\adminModel.js:162:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:43:29)
+[2025-07-29 10:36:44] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+        JOIN user_profiles up ON u.id = up.user_id
+        JOIN ...' at line 13
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.getById (D:\sms-project\api\src\models\adminModel.js:162:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:43:29)
+[2025-07-29 10:36:45] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+        JOIN user_profiles up ON u.id = up.user_id
+        JOIN ...' at line 13
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.getById (D:\sms-project\api\src\models\adminModel.js:162:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:43:29)
+[2025-07-29 10:36:48] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+        JOIN user_profiles up ON u.id = up.user_id
+        JOIN ...' at line 13
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.getById (D:\sms-project\api\src\models\adminModel.js:162:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:43:29)
+[2025-07-29 10:36:49] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+        JOIN user_profiles up ON u.id = up.user_id
+        JOIN ...' at line 13
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.getById (D:\sms-project\api\src\models\adminModel.js:162:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:43:29)
+[2025-07-29 10:36:49] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+        JOIN user_profiles up ON u.id = up.user_id
+        JOIN ...' at line 13
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.getById (D:\sms-project\api\src\models\adminModel.js:162:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:43:29)
+[2025-07-29 10:40:56] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+        JOIN user_profiles up ON u.id = up.user_id
+        JOIN ...' at line 13
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.getById (D:\sms-project\api\src\models\adminModel.js:162:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:43:29)
+[2025-07-29 10:43:06] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+        JOIN user_profiles up ON u.id = up.user_id
+        JOIN ...' at line 13
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.getById (D:\sms-project\api\src\models\adminModel.js:162:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:43:29)
+[2025-07-29 10:46:24] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+        JOIN user_profiles up ON u.id = up.user_id
+        JOIN ...' at line 13
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.getById (D:\sms-project\api\src\models\adminModel.js:162:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:43:29)
+[2025-07-29 10:48:16] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+        JOIN user_profiles up ON u.id = up.user_id
+        JOIN ...' at line 13
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.getById (D:\sms-project\api\src\models\adminModel.js:162:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:43:29)
+[2025-07-29 10:49:41] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+        JOIN user_profiles up ON u.id = up.user_id
+        JOIN ...' at line 13
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.getById (D:\sms-project\api\src\models\adminModel.js:162:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:43:29)
+[2025-07-29 10:50:02] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+        JOIN user_profiles up ON u.id = up.user_id
+        JOIN ...' at line 13
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.getById (D:\sms-project\api\src\models\adminModel.js:162:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:43:29)
+[2025-07-29 11:08:51] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+        JOIN user_profiles up ON u.id = up.user_id
+        JOIN ...' at line 13
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.getById (D:\sms-project\api\src\models\adminModel.js:162:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:43:29)
+[2025-07-29 11:09:54] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+        JOIN user_profiles up ON u.id = up.user_id
+        JOIN ...' at line 13
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.getById (D:\sms-project\api\src\models\adminModel.js:162:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:43:29)
+[2025-07-29 11:11:33] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+        JOIN user_profiles up ON u.id = up.user_id
+        JOIN ...' at line 13
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.getById (D:\sms-project\api\src\models\adminModel.js:162:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:43:29)
+[2025-07-29 11:13:08] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+        JOIN user_profiles up ON u.id = up.user_id
+        JOIN ...' at line 13
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.getById (D:\sms-project\api\src\models\adminModel.js:162:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:43:29)
+[2025-07-29 11:16:00] Error: Unknown column 'id' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:240:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:47:28)
+[2025-07-29 11:16:38] Error: Unknown column 'id' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:240:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:47:28)
+[2025-07-29 11:21:06] Error: Unknown column 'id' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:240:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:45:28)
+[2025-07-29 11:21:48] Error: Unknown column 'id' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:240:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:45:28)
+[2025-07-29 11:23:06] Error: Unknown column 'id' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:239:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:45:28)
+[2025-07-29 11:26:05] Error: Unknown column 'id' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:239:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:45:28)
+[2025-07-29 11:26:22] Error: Unknown column 'id' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:239:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:45:28)
+[2025-07-29 11:26:42] Error: Unknown column 'id' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:239:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:45:28)
+[2025-07-29 11:27:00] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+        JOIN user_profiles up ON u.id = up.user_id
+        JOIN ...' at line 13
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.getById (D:\sms-project\api\src\models\adminModel.js:162:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:41:29)
+[2025-07-29 11:28:26] Error: Unknown column 'id' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:243:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:45:28)
+[2025-07-29 11:29:50] Error: Unknown column 'id' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:244:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:45:28)
+[2025-07-29 11:30:09] Error: Unknown column 'id' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:244:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:45:28)
+[2025-07-29 11:31:42] Error: Unknown column 'id' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:244:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:45:28)
+[2025-07-29 11:33:07] Error: Unknown column 'id' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:244:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:45:28)
+[2025-07-29 11:34:37] Error: Unknown column 'id' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:246:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:45:28)
+[2025-07-29 11:34:53] Error: Unknown column 'id' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:246:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:45:28)
+[2025-07-29 11:36:34] Error: Unknown column 'id' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:246:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:45:28)
+[2025-07-29 11:36:47] Error: Unknown column 'id' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:244:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:45:28)
+[2025-07-29 11:37:08] Error: Unknown column 'id' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:244:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:45:28)
+[2025-07-29 11:53:36] Error: Unknown column 'id' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:245:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:45:28)
+[2025-07-29 11:54:27] Error: Unknown column 'id' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:245:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:45:28)
+[2025-07-29 11:55:46] Error: Unknown column 'updated_at' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:336:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:45:28)
+[2025-07-29 11:58:53] Error: Unknown column 'updated_at' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:336:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:45:28)
+[2025-07-29 12:02:41] Error: Unknown column 'updated_at' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:337:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:46:28)
+[2025-07-29 12:04:12] Error: Unknown column 'updated_at' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:337:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:46:28)
+[2025-07-29 12:04:13] Error: Unknown column 'updated_at' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:337:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:46:28)
+[2025-07-29 12:04:14] Error: Unknown column 'updated_at' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:337:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:46:28)
+[2025-07-29 12:04:54] Error: Unknown column 'updated_at' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:336:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:46:28)
+[2025-07-29 12:25:51] Error: Unknown column 'updated_at' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:336:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:46:28)
+[2025-07-29 12:26:21] Error: Unknown column 'updated_at' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:335:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:46:28)
+[2025-07-29 12:27:00] Error: Unknown column 'updated_at' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:336:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:46:28)
+[2025-07-29 12:28:23] Error: Unknown column 'updated_at' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:336:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:47:28)
+[2025-07-29 12:28:44] Error: Unknown column 'updated_at' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:335:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:47:28)
+[2025-07-29 12:29:56] Error: Unknown column 'updated_at' in 'field list'
+    at AdminModel.update (D:\sms-project\api\src\models\adminModel.js:340:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\adminController.js:47:28)
+[2025-07-29 12:33:02] Error: Unknown column 'id' in 'where clause'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.delete (D:\sms-project\api\src\models\adminModel.js:254:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async delete (D:\sms-project\api\src\controllers\adminController.js:64:28)
+[2025-07-29 12:46:33] TypeError: AdminModel.getImageById is not a function
+    at updateImageProfile (D:\sms-project\api\src\controllers\adminController.js:92:46)
+    at Layer.handleRequest (D:\sms-project\api\node_modules\router\lib\layer.js:152:17)
+    at next (D:\sms-project\api\node_modules\router\lib\route.js:157:13)
+    at D:\sms-project\api\src\middleware\uploadImage.js:70:5
+    at done (D:\sms-project\api\node_modules\multer\lib\make-middleware.js:59:7)
+    at indicateDone (D:\sms-project\api\node_modules\multer\lib\make-middleware.js:63:68)
+    at D:\sms-project\api\node_modules\multer\lib\make-middleware.js:171:11
+    at WriteStream.<anonymous> (D:\sms-project\api\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:530:35)
+    at finish (node:internal/streams/writable:955:10)
+[2025-07-29 12:46:37] TypeError: AdminModel.getImageById is not a function
+    at updateImageProfile (D:\sms-project\api\src\controllers\adminController.js:92:46)
+    at Layer.handleRequest (D:\sms-project\api\node_modules\router\lib\layer.js:152:17)
+    at next (D:\sms-project\api\node_modules\router\lib\route.js:157:13)
+    at D:\sms-project\api\src\middleware\uploadImage.js:70:5
+    at done (D:\sms-project\api\node_modules\multer\lib\make-middleware.js:59:7)
+    at indicateDone (D:\sms-project\api\node_modules\multer\lib\make-middleware.js:63:68)
+    at D:\sms-project\api\node_modules\multer\lib\make-middleware.js:171:11
+    at WriteStream.<anonymous> (D:\sms-project\api\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:530:35)
+    at finish (node:internal/streams/writable:955:10)
+[2025-07-29 12:47:47] TypeError: Cannot read properties of undefined (reading 'length')
+    at updateImageProfile (D:\sms-project\api\src\controllers\adminController.js:93:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-29 16:23:14] Error: Duplicate entry 'student40@gmail.com' for key 'email'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:11:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:16:28)
+[2025-07-29 16:24:40] Error: Duplicate entry 'student40@gmail.com' for key 'email'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:11:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:16:28)
+[2025-07-29 16:30:37] Error: Duplicate entry 'student42@gmail.com' for key 'email'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:11:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:16:28)
+[2025-07-29 16:31:30] Error: Duplicate entry 'student3@gmail.com' for key 'email'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:11:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:16:28)

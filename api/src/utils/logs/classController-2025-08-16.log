@@ -1,0 +1,62 @@
+[2025-08-16 05:38:38] TypeError: Cannot read properties of undefined (reading 'details')
+    at create (D:\sms-project\api\src\controllers\classController.js:13:26)
+    at Layer.handleRequest (D:\sms-project\api\node_modules\router\lib\layer.js:152:17)
+    at next (D:\sms-project\api\node_modules\router\lib\route.js:157:13)
+    at D:\sms-project\api\src\middleware\uploadImage.js:70:5
+    at done (D:\sms-project\api\node_modules\multer\lib\make-middleware.js:59:7)
+    at indicateDone (D:\sms-project\api\node_modules\multer\lib\make-middleware.js:63:68)
+    at D:\sms-project\api\node_modules\multer\lib\make-middleware.js:171:11
+    at WriteStream.<anonymous> (D:\sms-project\api\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:530:35)
+    at finish (node:internal/streams/writable:955:10)
+[2025-08-16 05:40:09] TypeError: Cannot read properties of undefined (reading 'details')
+    at create (D:\sms-project\api\src\controllers\classController.js:13:26)
+    at Layer.handleRequest (D:\sms-project\api\node_modules\router\lib\layer.js:152:17)
+    at next (D:\sms-project\api\node_modules\router\lib\route.js:157:13)
+    at D:\sms-project\api\src\middleware\uploadImage.js:70:5
+    at done (D:\sms-project\api\node_modules\multer\lib\make-middleware.js:59:7)
+    at indicateDone (D:\sms-project\api\node_modules\multer\lib\make-middleware.js:63:68)
+    at D:\sms-project\api\node_modules\multer\lib\make-middleware.js:171:11
+    at WriteStream.<anonymous> (D:\sms-project\api\node_modules\multer\storage\disk.js:43:9)
+    at WriteStream.emit (node:events:530:35)
+    at finish (node:internal/streams/writable:955:10)
+[2025-08-16 05:41:33] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at ClassModel.create (D:\sms-project\api\src\models\classModel.js:10:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\classController.js:21:32)
+[2025-08-16 05:42:46] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at ClassModel.create (D:\sms-project\api\src\models\classModel.js:10:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\classController.js:21:32)
+[2025-08-16 05:44:06] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at ClassModel.create (D:\sms-project\api\src\models\classModel.js:10:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\classController.js:21:32)
+[2025-08-16 05:44:52] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at ClassModel.create (D:\sms-project\api\src\models\classModel.js:10:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\classController.js:21:32)

@@ -1,0 +1,4 @@
+[2025-07-24 10:19:57] Error: Invalid academic year ID
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:78:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createStudent (D:\sms-project\api\src\controllers\studentController.js:25:28)

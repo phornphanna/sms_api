@@ -1,0 +1,15 @@
+[2025-07-31 23:38:21] Error: Duplicate entry '0' for key 'PRIMARY'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at CourseModel.create (D:\sms-project\api\src\models\courseModel.js:9:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\courseController.js:22:27)
+[2025-07-31 23:38:24] Error: Duplicate entry '0' for key 'PRIMARY'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at CourseModel.create (D:\sms-project\api\src\models\courseModel.js:9:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\courseController.js:22:27)
+[2025-07-31 23:38:37] Error: Duplicate entry '0' for key 'PRIMARY'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at CourseModel.create (D:\sms-project\api\src\models\courseModel.js:9:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\courseController.js:22:27)

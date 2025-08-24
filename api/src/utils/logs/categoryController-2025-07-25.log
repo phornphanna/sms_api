@@ -1,0 +1,25 @@
+[2025-07-25 14:52:29] TypeError: responseCategory.responseSuccess is not a function
+    at getAll (D:\sms-project\api\src\controllers\categoryController.js:28:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-25 14:54:05] TypeError: responseCategory.responseSuccess is not a function
+    at getAll (D:\sms-project\api\src\controllers\categoryController.js:28:37)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-25 15:01:35] Error: Duplicate entry '1' for key 'PRIMARY'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at CategoryModel.create (D:\sms-project\api\src\models\categoryModel.js:10:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\categoryController.js:15:28)
+[2025-07-25 15:09:03] Error: Can't add new command when connection is in closed state
+    at PromisePoolConnection.rollback (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:89:22)
+    at CategoryModel.delete (D:\sms-project\api\src\models\categoryModel.js:64:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async delete (D:\sms-project\api\src\controllers\categoryController.js:61:28)
+[2025-07-25 15:09:42] AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2025-07-25 15:10:02] AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2025-07-25 15:10:08] AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)

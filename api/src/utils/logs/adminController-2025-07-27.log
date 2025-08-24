@@ -1,0 +1,20 @@
+[2025-07-27 08:54:10] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:39:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:16:28)
+[2025-07-27 09:31:48] Error: Table 'sms.admin_profile' doesn't exist
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:40:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:17:28)
+[2025-07-27 09:32:34] Error: Table 'sms.admin_profile' doesn't exist
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:40:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:17:28)

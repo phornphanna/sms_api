@@ -1,0 +1,92 @@
+[2025-07-26 16:32:48] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+            JOIN user_profiles up ON u.id = up.user_id
+         ...' at line 12
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at AdminModel.getAll (D:\sms-project\api\src\models\adminModel.js:113:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\adminController.js:27:28)
+[2025-07-26 16:34:13] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+            JOIN user_profiles up ON u.id = up.user_id
+         ...' at line 12
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at AdminModel.getAll (D:\sms-project\api\src\models\adminModel.js:113:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\adminController.js:27:28)
+[2025-07-26 17:30:40] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+            JOIN user_profiles up ON u.id = up.user_id
+         ...' at line 12
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at AdminModel.getAll (D:\sms-project\api\src\models\adminModel.js:113:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\adminController.js:27:28)
+[2025-07-26 17:32:41] Error: Unknown column 'ap.response' in 'field list'
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at AdminModel.getAll (D:\sms-project\api\src\models\adminModel.js:113:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\adminController.js:27:28)
+[2025-07-26 17:38:19] TypeError: Cannot read properties of undefined (reading 'email')
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:13:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:15:28)
+[2025-07-26 17:38:49] TypeError: Cannot read properties of undefined (reading 'email')
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:13:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:15:28)
+[2025-07-26 17:41:03] ReferenceError: bcrypt is not defined
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:9:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:15:28)
+[2025-07-26 17:41:07] ReferenceError: bcrypt is not defined
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:9:36)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:15:28)
+[2025-07-26 17:41:16] TypeError: Cannot read properties of undefined (reading 'password')
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:9:59)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:15:28)
+[2025-07-26 17:42:23] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (D:\sms-project\api\node_modules\express\lib\response.js:1020:12)
+    at ServerResponse.json (D:\sms-project\api\node_modules\express\lib\response.js:243:14)
+    at ServerResponse.send (D:\sms-project\api\node_modules\express\lib\response.js:149:21)
+    at create (D:\sms-project\api\src\controllers\adminController.js:12:24)
+    at Layer.handleRequest (D:\sms-project\api\node_modules\router\lib\layer.js:152:17)
+    at next (D:\sms-project\api\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\sms-project\api\node_modules\router\lib\route.js:117:3)
+    at handle (D:\sms-project\api\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\sms-project\api\node_modules\router\lib\layer.js:152:17)
+[2025-07-26 17:45:13] Error: Unknown column 'ap.department' in 'field list'
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at AdminModel.getAll (D:\sms-project\api\src\models\adminModel.js:115:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\adminController.js:30:28)
+[2025-07-26 17:46:02] Error: Unknown column 'ap.department' in 'field list'
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at AdminModel.getAll (D:\sms-project\api\src\models\adminModel.js:115:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\adminController.js:28:28)
+[2025-07-26 17:50:23] ReferenceError: userResult is not defined
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:27:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:16:28)
+[2025-07-26 17:51:03] ReferenceError: profileImage is not defined
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:34:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:16:28)
+[2025-07-26 17:51:33] ReferenceError: profileImage is not defined
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:34:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:16:28)
+[2025-07-26 17:53:32] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at AdminModel.create (D:\sms-project\api\src\models\adminModel.js:39:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\adminController.js:16:28)

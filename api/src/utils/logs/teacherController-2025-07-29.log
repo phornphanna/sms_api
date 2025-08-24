@@ -1,0 +1,312 @@
+[2025-07-29 15:59:42] ReferenceError: experience_years is not defined
+    at TeacherModel.getAll (D:\sms-project\api\src\models\teacherModel.js:119:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\teacherController.js:27:28)
+[2025-07-29 16:00:17] ReferenceError: experience_years is not defined
+    at TeacherModel.getAll (D:\sms-project\api\src\models\teacherModel.js:119:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\teacherController.js:27:28)
+[2025-07-29 16:02:10] ReferenceError: position_id is not defined
+    at TeacherModel.getAll (D:\sms-project\api\src\models\teacherModel.js:124:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\teacherController.js:27:28)
+[2025-07-29 16:02:22] Error: Unknown column 'tp.position_id' in 'field list'
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at TeacherModel.getAll (D:\sms-project\api\src\models\teacherModel.js:136:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\teacherController.js:27:28)
+[2025-07-29 16:03:06] Error: Unknown column 'tp.position_id' in 'field list'
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at TeacherModel.getAll (D:\sms-project\api\src\models\teacherModel.js:136:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\teacherController.js:27:28)
+[2025-07-29 16:04:00] Error: Unknown column 'tp.position_id' in 'field list'
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at TeacherModel.getAll (D:\sms-project\api\src\models\teacherModel.js:137:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\teacherController.js:27:28)
+[2025-07-29 16:05:50] Error: Unknown column 'tp.position_id' in 'field list'
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at TeacherModel.getAll (D:\sms-project\api\src\models\teacherModel.js:136:49)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\teacherController.js:27:28)
+[2025-07-29 16:05:53] Error: Unknown column 'tp.position_id' in 'field list'
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at TeacherModel.getAll (D:\sms-project\api\src\models\teacherModel.js:136:49)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\teacherController.js:27:28)
+[2025-07-29 16:06:31] Error: Unknown column 'tp.position_id' in 'field list'
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at TeacherModel.getAll (D:\sms-project\api\src\models\teacherModel.js:136:49)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\teacherController.js:27:28)
+[2025-07-29 16:06:33] Error: Unknown column 'tp.position_id' in 'field list'
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at TeacherModel.getAll (D:\sms-project\api\src\models\teacherModel.js:136:49)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\teacherController.js:27:28)
+[2025-07-29 16:06:56] Error: Unknown column 'tp.position_id' in 'field list'
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at TeacherModel.getAll (D:\sms-project\api\src\models\teacherModel.js:136:49)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\teacherController.js:27:28)
+[2025-07-29 16:07:59] Error: Unknown column 'tp.position_id' in 'field list'
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at TeacherModel.getAll (D:\sms-project\api\src\models\teacherModel.js:136:49)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\teacherController.js:27:28)
+[2025-07-29 16:08:50] Error: Unknown column 'tp.position_id' in 'field list'
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at TeacherModel.getAll (D:\sms-project\api\src\models\teacherModel.js:136:49)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\teacherController.js:27:28)
+[2025-07-29 16:11:11] Error: Unknown column 'tp.position_id' in 'field list'
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at TeacherModel.getAll (D:\sms-project\api\src\models\teacherModel.js:136:49)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\teacherController.js:27:28)
+[2025-07-29 16:13:59] Error: Unknown column 'tp.position_id' in 'field list'
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at TeacherModel.getAll (D:\sms-project\api\src\models\teacherModel.js:136:49)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\teacherController.js:27:28)
+[2025-07-29 16:17:15] Error: Unknown column 'tp.position_id' in 'field list'
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at TeacherModel.getAll (D:\sms-project\api\src\models\teacherModel.js:136:49)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\teacherController.js:27:28)
+[2025-07-29 16:18:05] Error: Unknown column 'tp.position_id' in 'field list'
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at TeacherModel.getAll (D:\sms-project\api\src\models\teacherModel.js:136:49)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\teacherController.js:27:28)
+[2025-07-29 16:18:30] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM users u
+JOIN user_profiles up ON u.id = up.user_id
+JOIN admin_profiles a...' at line 19
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at TeacherModel.getAll (D:\sms-project\api\src\models\teacherModel.js:139:49)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\teacherController.js:27:28)
+[2025-07-29 18:19:45] Error: Duplicate entry 'student3@gmail.com' for key 'email'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at TeacherModel.create (D:\sms-project\api\src\models\teacherModel.js:11:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\teacherController.js:16:28)
+[2025-07-29 18:19:52] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at TeacherModel.create (D:\sms-project\api\src\models\teacherModel.js:40:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\teacherController.js:16:28)
+[2025-07-29 18:19:57] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at TeacherModel.create (D:\sms-project\api\src\models\teacherModel.js:40:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\teacherController.js:16:28)
+[2025-07-29 18:21:34] Error: Column 'experience_years' cannot be null
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at TeacherModel.create (D:\sms-project\api\src\models\teacherModel.js:39:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\teacherController.js:16:28)
+[2025-07-29 18:21:50] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at TeacherModel.create (D:\sms-project\api\src\models\teacherModel.js:39:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\teacherController.js:16:28)
+[2025-07-29 18:23:07] Error: Unknown column 'office_phone' in 'field list'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at TeacherModel.create (D:\sms-project\api\src\models\teacherModel.js:40:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\teacherController.js:16:28)
+[2025-07-29 18:23:34] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at TeacherModel.create (D:\sms-project\api\src\models\teacherModel.js:40:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\teacherController.js:16:28)
+[2025-07-29 18:24:50] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at TeacherModel.create (D:\sms-project\api\src\models\teacherModel.js:41:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\teacherController.js:16:28)
+[2025-07-29 18:27:35] Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at TeacherModel.create (D:\sms-project\api\src\models\teacherModel.js:11:52)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\teacherController.js:16:28)
+[2025-07-29 18:31:35] Error: Duplicate entry 'student8@gmail.com' for key 'email'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at TeacherModel.create (D:\sms-project\api\src\models\teacherModel.js:11:52)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\teacherController.js:16:28)
+[2025-07-29 18:50:19] Error: Invalid admin level ID
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:356:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:49:28)
+[2025-07-29 18:52:15] Error: Invalid admin level ID
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:356:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:49:28)
+[2025-07-29 18:52:34] Error: Invalid admin level ID
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:356:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:49:28)
+[2025-07-29 18:53:04] Error: Invalid admin level ID
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:354:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:49:28)
+[2025-07-29 18:53:06] Error: Invalid admin level ID
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:354:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:49:28)
+[2025-07-29 18:53:35] Error: Invalid admin level ID
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:353:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:49:28)
+[2025-07-29 18:54:05] Error: Duplicate entry 'student6@gmail.com' for key 'email'
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:344:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:49:28)
+[2025-07-29 18:54:16] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:344:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:49:28)
+[2025-07-29 18:55:14] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:348:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:49:28)
+[2025-07-29 18:55:49] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:348:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:49:28)
+[2025-07-29 18:55:50] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:348:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:49:28)
+[2025-07-29 18:58:31] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:348:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 18:59:04] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:348:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:00:18] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:348:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:01:23] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:348:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:02:30] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:348:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:03:24] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:348:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:04:05] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:348:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:05:30] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:355:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:06:07] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:356:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:06:08] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:356:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:06:22] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:350:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:06:54] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:350:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:08:27] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:350:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:08:45] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:350:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:08:46] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:350:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:12:03] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:350:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:14:06] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:350:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:16:08] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:350:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:16:09] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:350:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:16:09] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:350:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:17:43] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:350:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:19:03] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:350:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:20:11] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:380:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:20:45] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:349:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)
+[2025-07-29 19:22:53] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:352:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:49:28)
+[2025-07-29 19:23:53] Error: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at TeacherModel.update (D:\sms-project\api\src\models\teacherModel.js:353:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\teacherController.js:50:28)

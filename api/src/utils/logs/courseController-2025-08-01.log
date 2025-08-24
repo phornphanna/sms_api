@@ -1,0 +1,15 @@
+[2025-08-01 05:37:08] Error: Column count doesn't match value count at row 1
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at CourseModel.create (D:\sms-project\api\src\models\courseModel.js:9:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\courseController.js:21:27)
+[2025-08-01 05:40:07] Error: Column count doesn't match value count at row 1
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at CourseModel.create (D:\sms-project\api\src\models\courseModel.js:9:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\courseController.js:21:27)
+[2025-08-01 05:41:07] Error: Duplicate entry '2' for key 'PRIMARY'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at CourseModel.create (D:\sms-project\api\src\models\courseModel.js:9:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\courseController.js:21:27)

@@ -44,7 +44,7 @@ const createStudentSchema = Joi.object({
   }),
 
 
-  academic_year_id: Joi.number().integer().positive().optional().allow(null),
+  academic_year_id: Joi.number().integer().positive().required(),
   parent_contact: Joi.string().max(20).optional().allow(null).messages({
     'string.max': 'Parent contact must not exceed 20 characters'
   }),

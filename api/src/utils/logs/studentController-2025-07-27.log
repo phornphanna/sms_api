@@ -1,0 +1,171 @@
+[2025-07-27 11:25:14] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received null
+    at Object.join (node:path:485:7)
+    at updateImageProfile (D:\sms-project\api\src\controllers\studentController.js:72:44)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-27 11:27:17] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received null
+    at Object.join (node:path:485:7)
+    at updateImageProfile (D:\sms-project\api\src\controllers\studentController.js:73:44)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-27 11:27:49] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received null
+    at Object.join (node:path:485:7)
+    at updateImageProfile (D:\sms-project\api\src\controllers\studentController.js:73:44)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-27 11:29:41] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received null
+    at Object.join (node:path:485:7)
+    at updateImageProfile (D:\sms-project\api\src\controllers\studentController.js:73:44)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-27 11:45:58] Error: Invalid academic year ID
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:77:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\studentController.js:19:28)
+[2025-07-27 11:46:30] Error: Invalid academic year ID
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:77:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\studentController.js:19:28)
+[2025-07-27 11:46:59] Error: Invalid academic year ID
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:77:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\studentController.js:19:28)
+[2025-07-27 11:47:09] Error: Invalid academic year ID
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:77:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\studentController.js:19:28)
+[2025-07-27 11:47:13] Error: Invalid academic year ID
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:77:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\studentController.js:19:28)
+[2025-07-27 11:47:43] Error: Invalid academic year ID
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:77:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\studentController.js:19:28)
+[2025-07-27 11:48:14] Error: Invalid academic year ID
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:77:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\studentController.js:19:28)
+[2025-07-27 11:48:21] Error: Invalid academic year ID
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:77:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\studentController.js:19:28)
+[2025-07-27 11:48:22] Error: Invalid academic year ID
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:77:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\studentController.js:19:28)
+[2025-07-27 11:48:22] Error: Invalid academic year ID
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:77:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\studentController.js:19:28)
+[2025-07-27 11:48:31] Error: Invalid academic year ID
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:77:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\studentController.js:19:28)
+[2025-07-27 11:49:32] Error: Invalid academic year ID
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:77:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\studentController.js:19:28)
+[2025-07-27 11:49:58] Error: Invalid academic year ID
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:77:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\studentController.js:19:28)
+[2025-07-27 11:49:59] Error: Invalid academic year ID
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:77:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\studentController.js:19:28)
+[2025-07-27 11:51:46] Error: Invalid academic year ID
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:77:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\studentController.js:19:28)
+[2025-07-27 11:52:03] Error: Invalid academic year ID
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:77:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\studentController.js:19:28)
+[2025-07-27 11:52:06] Error: Invalid academic year ID
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:77:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\studentController.js:19:28)
+[2025-07-27 11:52:34] Error: Invalid academic year ID
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:77:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\studentController.js:19:28)
+[2025-07-27 11:53:58] TypeError: Cannot read properties of undefined (reading 'affectedRows')
+    at create (D:\sms-project\api\src\controllers\studentController.js:20:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-27 11:55:05] TypeError: Cannot read properties of undefined (reading 'academic_year_id')
+    at create (D:\sms-project\api\src\controllers\studentController.js:19:75)
+    at Layer.handleRequest (D:\sms-project\api\node_modules\router\lib\layer.js:152:17)
+    at next (D:\sms-project\api\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\sms-project\api\node_modules\router\lib\route.js:117:3)
+    at handle (D:\sms-project\api\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\sms-project\api\node_modules\router\lib\layer.js:152:17)
+    at D:\sms-project\api\node_modules\router\index.js:295:15
+    at processParams (D:\sms-project\api\node_modules\router\index.js:582:12)
+    at next (D:\sms-project\api\node_modules\router\index.js:291:5)
+    at Function.handle (D:\sms-project\api\node_modules\router\index.js:186:3)
+[2025-07-27 11:55:33] TypeError: Cannot read properties of undefined (reading 'academic_year_id')
+    at create (D:\sms-project\api\src\controllers\studentController.js:19:75)
+    at Layer.handleRequest (D:\sms-project\api\node_modules\router\lib\layer.js:152:17)
+    at next (D:\sms-project\api\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\sms-project\api\node_modules\router\lib\route.js:117:3)
+    at handle (D:\sms-project\api\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\sms-project\api\node_modules\router\lib\layer.js:152:17)
+    at D:\sms-project\api\node_modules\router\index.js:295:15
+    at processParams (D:\sms-project\api\node_modules\router\index.js:582:12)
+    at next (D:\sms-project\api\node_modules\router\index.js:291:5)
+    at Function.handle (D:\sms-project\api\node_modules\router\index.js:186:3)
+[2025-07-27 12:34:51] TypeError: Cannot read properties of undefined (reading 'affectedRows')
+    at create (D:\sms-project\api\src\controllers\studentController.js:23:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-27 12:44:26] ReferenceError: Cannot access 'result' before initialization
+    at create (D:\sms-project\api\src\controllers\studentController.js:23:29)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-27 12:45:36] Error: Duplicate entry 'student18@gmail.com' for key 'email'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:22:45)
+    at async create (D:\sms-project\api\src\controllers\studentController.js:25:28)
+[2025-07-27 12:49:09] Error: Duplicate entry 'student18@gmail.com' for key 'email'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at StudentModel.create (D:\sms-project\api\src\models\studentModel.js:22:45)
+    at async create (D:\sms-project\api\src\controllers\studentController.js:25:28)
+[2025-07-27 13:26:16] Error: Incorrect arguments to mysqld_stmt_execute
+    at StudentModel.update (D:\sms-project\api\src\models\studentModel.js:317:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\studentController.js:54:28)
+[2025-07-27 13:29:25] Error: Incorrect arguments to mysqld_stmt_execute
+    at StudentModel.update (D:\sms-project\api\src\models\studentModel.js:317:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\studentController.js:54:28)
+[2025-07-27 13:32:29] Error: Incorrect arguments to mysqld_stmt_execute
+    at StudentModel.update (D:\sms-project\api\src\models\studentModel.js:317:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\studentController.js:54:28)
+[2025-07-27 13:32:52] Error: Incorrect arguments to mysqld_stmt_execute
+    at StudentModel.update (D:\sms-project\api\src\models\studentModel.js:317:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\studentController.js:54:28)
+[2025-07-27 13:33:53] Error: Incorrect arguments to mysqld_stmt_execute
+    at StudentModel.update (D:\sms-project\api\src\models\studentModel.js:328:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\studentController.js:54:28)
+[2025-07-27 13:34:22] Error: Incorrect arguments to mysqld_stmt_execute
+    at StudentModel.update (D:\sms-project\api\src\models\studentModel.js:328:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\studentController.js:54:28)
+[2025-07-27 13:34:25] Error: Incorrect arguments to mysqld_stmt_execute
+    at StudentModel.update (D:\sms-project\api\src\models\studentModel.js:328:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\studentController.js:54:28)
+[2025-07-27 13:35:12] Error: Incorrect arguments to mysqld_stmt_execute
+    at StudentModel.update (D:\sms-project\api\src\models\studentModel.js:315:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\studentController.js:54:28)
+[2025-07-27 13:41:24] Error: Incorrect arguments to mysqld_stmt_execute
+    at StudentModel.update (D:\sms-project\api\src\models\studentModel.js:315:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\studentController.js:54:28)
+[2025-07-27 13:42:58] Error: Incorrect arguments to mysqld_stmt_execute
+    at StudentModel.update (D:\sms-project\api\src\models\studentModel.js:315:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\studentController.js:54:28)
+[2025-07-27 13:44:09] Error: Incorrect arguments to mysqld_stmt_execute
+    at StudentModel.update (D:\sms-project\api\src\models\studentModel.js:311:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\studentController.js:54:28)

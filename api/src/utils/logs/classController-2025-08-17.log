@@ -1,0 +1,113 @@
+[2025-08-17 09:26:14] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at ClassModel.create (D:\sms-project\api\src\models\classModel.js:10:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\classController.js:21:32)
+[2025-08-17 09:27:02] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at ClassModel.create (D:\sms-project\api\src\models\classModel.js:10:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\classController.js:21:32)
+[2025-08-17 09:27:25] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at ClassModel.create (D:\sms-project\api\src\models\classModel.js:10:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\classController.js:21:32)
+[2025-08-17 09:27:39] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at ClassModel.create (D:\sms-project\api\src\models\classModel.js:10:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\classController.js:21:32)
+[2025-08-17 09:27:46] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at ClassModel.create (D:\sms-project\api\src\models\classModel.js:10:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\classController.js:21:32)
+[2025-08-17 09:28:35] Error: Unknown column 'create_by' in 'field list'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.create (D:\sms-project\api\src\models\classModel.js:10:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\classController.js:21:32)
+[2025-08-17 09:47:33] Error: Column count doesn't match value count at row 1
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.create (D:\sms-project\api\src\models\classModel.js:10:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\classController.js:21:32)
+[2025-08-17 09:49:38] Error: Duplicate entry '66-1-2025-05-06-morning' for key 'unique_teacher_slot'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.create (D:\sms-project\api\src\models\classModel.js:10:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\classController.js:21:32)
+[2025-08-17 09:52:52] Error: Duplicate entry '66-1-2025-05-06-morning' for key 'unique_teacher_slot'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.create (D:\sms-project\api\src\models\classModel.js:10:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\classController.js:32:32)
+[2025-08-17 09:59:15] ReferenceError: path is not defined
+    at create (D:\sms-project\api\src\controllers\classController.js:21:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-08-17 10:01:11] Error: Duplicate entry '66-1-2025-05-06-morning' for key 'unique_teacher_slot'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.create (D:\sms-project\api\src\models\classModel.js:10:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\classController.js:53:34)
+[2025-08-17 10:01:18] Error: Duplicate entry '66-1-2025-05-06-morning' for key 'unique_teacher_slot'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.create (D:\sms-project\api\src\models\classModel.js:10:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\classController.js:53:34)
+[2025-08-17 10:05:08] Error: Duplicate entry '66-1-2025-05-06-am' for key 'unique_teacher_slot'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.create (D:\sms-project\api\src\models\classModel.js:10:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\classController.js:53:34)
+[2025-08-17 10:06:19] Error: Duplicate entry '66-1-2025-05-06-am' for key 'unique_teacher_slot'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.create (D:\sms-project\api\src\models\classModel.js:10:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\classController.js:53:34)
+[2025-08-17 10:27:20] Error: Unknown column 'start_time' in 'field list'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.create (D:\sms-project\api\src\models\classModel.js:10:55)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\classController.js:52:34)
+[2025-08-17 11:38:30] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM classes
+                 WHERE teacher_id = ?
+                   AND sta...' at line 2
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.create (D:\sms-project\api\src\models\classModel.js:12:51)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\classController.js:52:34)
+[2025-08-17 11:41:04] ReferenceError: Cannot access 'result' before initialization
+    at ClassModel.create (D:\sms-project\api\src\models\classModel.js:19:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\classController.js:52:34)
+[2025-08-17 11:41:46] ReferenceError: Cannot access 'result' before initialization
+    at ClassModel.create (D:\sms-project\api\src\models\classModel.js:19:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async create (D:\sms-project\api\src\controllers\classController.js:52:34)

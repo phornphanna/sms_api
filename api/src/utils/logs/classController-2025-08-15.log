@@ -1,0 +1,122 @@
+[2025-08-15 19:48:43] AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2025-08-15 19:48:44] AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2025-08-15 19:48:55] TypeError: Assignment to constant variable.
+    at ClassModel.getAll (D:\sms-project\api\src\models\classModel.js:94:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\classController.js:37:32)
+[2025-08-15 20:01:43] TypeError: Assignment to constant variable.
+    at ClassModel.getAll (D:\sms-project\api\src\models\classModel.js:94:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\classController.js:37:32)
+[2025-08-15 20:02:03] TypeError: Assignment to constant variable.
+    at ClassModel.getAll (D:\sms-project\api\src\models\classModel.js:94:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\classController.js:37:32)
+[2025-08-15 20:02:19] TypeError: Assignment to constant variable.
+    at ClassModel.getAll (D:\sms-project\api\src\models\classModel.js:94:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\classController.js:37:32)
+[2025-08-15 20:02:56] TypeError: Assignment to constant variable.
+    at ClassModel.getAll (D:\sms-project\api\src\models\classModel.js:94:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\classController.js:37:32)
+[2025-08-15 21:44:05] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.id , 
+             cl.teacher_id ,
+             cl.course_id,
+             c...' at line 2
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.getAll (D:\sms-project\api\src\models\classModel.js:97:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\classController.js:37:32)
+[2025-08-15 21:44:41] Error: Table 'sms.teachers' doesn't exist
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.getAll (D:\sms-project\api\src\models\classModel.js:97:45)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\classController.js:37:32)
+[2025-08-15 21:45:21] Error: Table 'sms.teachers' doesn't exist
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.getAll (D:\sms-project\api\src\models\classModel.js:99:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\classController.js:37:32)
+[2025-08-15 21:47:14] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.id , 
+             cl.teacher_id ,
+             cl.course_id,
+             c...' at line 2
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.getAll (D:\sms-project\api\src\models\classModel.js:97:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\classController.js:37:32)
+[2025-08-15 21:49:41] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.id , 
+             cl.teacher_id ,
+             cl.course_id,
+             c...' at line 2
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.getAll (D:\sms-project\api\src\models\classModel.js:97:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\classController.js:37:32)
+[2025-08-15 21:57:03] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.id , 
+             cl.teacher_id ,
+             cl.course_id,
+             c...' at line 2
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.getAll (D:\sms-project\api\src\models\classModel.js:97:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\classController.js:37:32)
+[2025-08-15 21:58:03] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.id , 
+             cl.teacher_id ,
+             cl.course_id,
+             c...' at line 2
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.getAll (D:\sms-project\api\src\models\classModel.js:97:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\classController.js:37:32)
+[2025-08-15 21:59:03] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.id , 
+             cl.teacher_id ,
+             cl.course_id,
+             c...' at line 2
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.getAll (D:\sms-project\api\src\models\classModel.js:97:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\classController.js:37:32)
+[2025-08-15 22:00:15] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.id , 
+             cl.teacher_id ,
+             cl.course_id,
+             c...' at line 2
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.getAll (D:\sms-project\api\src\models\classModel.js:97:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\classController.js:37:32)
+[2025-08-15 22:01:20] Error: Unknown column 'cl.cureent_student' in 'field list'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.getAll (D:\sms-project\api\src\models\classModel.js:96:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\classController.js:37:32)
+[2025-08-15 22:01:39] Error: Unknown column 'cl.current_student' in 'field list'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.getAll (D:\sms-project\api\src\models\classModel.js:96:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\classController.js:37:32)
+[2025-08-15 22:01:42] Error: Unknown column 'cl.current_student' in 'field list'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.getAll (D:\sms-project\api\src\models\classModel.js:96:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\classController.js:37:32)
+[2025-08-15 22:02:01] Error: Unknown column 'cl.create_by' in 'field list'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at ClassModel.getAll (D:\sms-project\api\src\models\classModel.js:96:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\classController.js:37:32)
+[2025-08-15 22:02:16] Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?' at line 5
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at ClassModel.getAll (D:\sms-project\api\src\models\classModel.js:119:52)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\classController.js:37:32)
+[2025-08-15 22:06:04] Error: Table 'sms.teachers' doesn't exist
+    at PromisePoolConnection.query (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at ClassModel.getAll (D:\sms-project\api\src\models\classModel.js:118:52)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async getAll (D:\sms-project\api\src\controllers\classController.js:37:32)

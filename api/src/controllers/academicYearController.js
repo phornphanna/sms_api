@@ -6,59 +6,70 @@ const logError = require('../utils/logger');
 
 class AcademicYearController {
 
-    async createAcademicYear(req, res) {
+    async create(req, res) {
         try {
             const { error } = academicYearSchema.validate(req.body);
             if (error) {
-                responseAcademicYear.responseError(res, error.details[0].message);
+                return     responseAcademicYear.responseError(res, error.details[0].message);
             }
             const result = await academicYearModel.create(req.body);
              if(result.affectedRows > 0){
-                responseAcademicYear.responseSuccess(res, 'Academic year created successfully');
+                return     responseAcademicYear.responseSuccess(res, 'Academic year created successfully');
              }
         } catch (error) {
             logError('academicYearController', error);
-            responseAcademicYear.responseError(res, error.message);
+           return  responseAcademicYear.responseError(res, error.message);
         }
     }
 
-    async getAllAcademicYears(req, res) {
+    async getAll(req, res) {
         try {
             const result = await academicYearModel.getAll();
-            responseAcademicYear.responseSuccess(res, result, 'Academic years fetched successfully');
+            return   responseAcademicYear.responseSuccess(res, result, 'Academic years fetched successfully');
         } catch (error) {
             logError('academicYearController', error);
-            responseAcademicYear.responseError(res, error.message);
+            return    responseAcademicYear.responseError(res, error.message);
         }
     }
 
-    async updateAcademicYear(req, res) {
+    async update(req, res) {
         try {
             const { error } = academicYearSchema.validate(req.body);
             if (error) {
-                responseAcademicYear.responseError(res, error.details[0].message);
+                return    responseAcademicYear.responseError(res, error.details[0].message);
+            }
+            const isAcademicYear = await academicYearModel.getById(req.params.id);
+            if (isAcademicYear.length == 0) {
+                return responseAcademicYear.responseError(res, 'Academic year not found');
             }
             const result = await academicYearModel.update(req.params.id, req.body);
             if(result.affectedRows > 0){
-                responseAcademicYear.responseSuccess(res, 'Academic year updated successfully');
+                return    responseAcademicYear.responseSuccess(res, 'Academic year updated successfully');
             }
         } catch (error) {
             logError('academicYearController', error);
-            responseAcademicYear.responseError(res, error.message);
+            return   responseAcademicYear.responseError(res, error.message);
         }
     }
 
-    async deleteAcademicYear(req, res) {
+    async delete(req, res) {
         try {
+            const isAcademicYear = await academicYearModel.getById(req.params.id);
+            if (isAcademicYear.length == 0) {
+                return responseAcademicYear.responseError(res, 'Academic year not found');
+            }
             const result = await academicYearModel.delete(req.params.id);
-            if(result.affectedRows > 0){
-                responseAcademicYear.responseSuccess(res, 'Academic year deleted successfully');
+          
+            if(result){
+                return responseAcademicYear.responseSuccess(res, 'Academic year deleted successfully');
             }
         } catch (error) {
             logError('academicYearController', error);
-            responseAcademicYear.responseError(res, error.message);
+            return     responseAcademicYear.responseError(res, error.message);
         }
     }
+
+
 
 }
 

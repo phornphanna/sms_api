@@ -1,0 +1,43 @@
+[2025-07-28 10:36:28] AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+[2025-07-28 10:40:16] Error: Incorrect arguments to mysqld_stmt_execute
+    at StudentModel.update (D:\sms-project\api\src\models\studentModel.js:311:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async update (D:\sms-project\api\src\controllers\studentController.js:54:28)
+[2025-07-28 10:45:01] TypeError: Cannot read properties of undefined (reading 'length')
+    at getById (D:\sms-project\api\src\controllers\studentController.js:113:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-28 11:10:34] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Object
+    at Object.join (node:path:485:7)
+    at updateImageProfile (D:\sms-project\api\src\controllers\studentController.js:96:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-28 11:12:44] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Object
+    at Object.join (node:path:485:7)
+    at updateImageProfile (D:\sms-project\api\src\controllers\studentController.js:96:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-28 11:13:18] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Object
+    at Object.join (node:path:485:7)
+    at updateImageProfile (D:\sms-project\api\src\controllers\studentController.js:96:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-28 11:14:40] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Object
+    at Object.join (node:path:485:7)
+    at updateImageProfile (D:\sms-project\api\src\controllers\studentController.js:97:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-28 11:16:42] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Object
+    at Object.join (node:path:485:7)
+    at updateImageProfile (D:\sms-project\api\src\controllers\studentController.js:97:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-28 11:28:24] TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received an instance of Object
+    at Object.join (node:path:485:7)
+    at updateImageProfile (D:\sms-project\api\src\controllers\studentController.js:97:43)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-28 11:30:46] Error: ENOENT: no such file or directory, unlink 'D:\sms-project\api\uploads\1753677008807.jpg'
+    at async Object.unlink (node:internal/fs/promises:1065:10)
+    at async updateImageProfile (D:\sms-project\api\src\controllers\studentController.js:98:19)
+[2025-07-28 11:33:19] ReferenceError: currentFilename is not defined
+    at updateImageProfile (D:\sms-project\api\src\controllers\studentController.js:96:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-28 11:35:58] TypeError: fs.unlinkSync is not a function
+    at deleteProfileImage (D:\sms-project\api\src\controllers\studentController.js:143:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)

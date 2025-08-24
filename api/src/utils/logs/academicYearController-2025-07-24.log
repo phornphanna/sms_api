@@ -1,0 +1,28 @@
+[2025-07-24 08:36:50] Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:700:11)
+    at ServerResponse.header (D:\sms-project\api\node_modules\express\lib\response.js:684:10)
+    at ServerResponse.send (D:\sms-project\api\node_modules\express\lib\response.js:161:12)
+    at ServerResponse.json (D:\sms-project\api\node_modules\express\lib\response.js:250:15)
+    at Object.responseSuccess (D:\sms-project\api\src\helper\response\responseAcademicYear.js:7:28)
+    at createAcademicYear (D:\sms-project\api\src\controllers\academicYearController.js:17:38)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2025-07-24 10:23:50] TypeError: Bind parameters must not contain undefined. To pass SQL NULL specify JS null
+    at D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:660:17
+    at Array.forEach (<anonymous>)
+    at PoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\base\connection.js:652:22)
+    at D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:56:11
+    at new Promise (<anonymous>)
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:53:12)
+    at AcademicYearModel.create (D:\sms-project\api\src\models\academicYearModel.js:8:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createAcademicYear (D:\sms-project\api\src\controllers\academicYearController.js:15:28)
+[2025-07-24 10:24:57] Error: Duplicate entry '3' for key 'PRIMARY'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AcademicYearModel.create (D:\sms-project\api\src\models\academicYearModel.js:8:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createAcademicYear (D:\sms-project\api\src\controllers\academicYearController.js:15:28)
+[2025-07-24 15:16:09] Error: Duplicate entry '1' for key 'PRIMARY'
+    at PromisePoolConnection.execute (D:\sms-project\api\node_modules\mysql2\lib\promise\connection.js:47:22)
+    at AcademicYearModel.create (D:\sms-project\api\src\models\academicYearModel.js:8:47)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async createAcademicYear (D:\sms-project\api\src\controllers\academicYearController.js:15:28)
